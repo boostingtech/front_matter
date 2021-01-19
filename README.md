@@ -1,7 +1,7 @@
 # FrontMatter
 
 [![Hex.pm](https://img.shields.io/hexpm/dt/front_matter.svg)](https://hex.pm/packages/front_matter)
-![build](https://github.com/Mdsp9070/front_matter/workflows/build/badge.svg?branch=main)
+![build](https://github.com/boostingtech/front_matter/workflows/build/badge.svg?branch=main)
 
 Parse a file or string containing front matter and a document body.
   
