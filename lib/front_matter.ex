@@ -43,8 +43,8 @@ defmodule FrontMatter do
   @doc """
   Read a file, parse it's contents, and return it's front matter and body.
   Returns `{matter, body}` on success (`matter` is a map), throws on error.
-      iex> FrontMatter.parse_file! "test/fixtures/dummy.md"
-      {%{"title" => "Hello"}, "Hello, world\\n"}
+      iex> FrontMatter.parse_file! "test/fixtures/dumb.md"
+      {%{"title" => "Hello", "tags" => ["x", "y", "z"]}, "Hello, world\\n"}
       iex> try do
       ...>   FrontMatter.parse_file! "test/fixtures/idontexist.md"
       ...> rescue
